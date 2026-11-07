@@ -1,0 +1,83 @@
+{
+  "entities": {
+    "CustomerOrder": {
+      "collection": "customer_orders",
+      "fields": {
+        "customerName": { "type": "string" },
+        "phoneNumber": { "type": "string" },
+        "workDetails": { "type": "string" },
+        "measurements": { "type": "string" },
+        "totalAmount": { "type": "number" },
+        "advancePaid": { "type": "number" },
+        "balanceDue": { "type": "number" },
+        "paymentMode": { "type": "string" },
+        "orderStatus": { "type": "string" },
+        "orderDate": { "type": "number" },
+        "deliveryDate": { "type": "number" },
+        "notes": { "type": "string" }
+      }
+    },
+    "CustomerProfile": {
+      "collection": "customer_profiles",
+      "fields": {
+        "name": { "type": "string" },
+        "phoneNumber": { "type": "string" },
+        "suitLength": { "type": "string" },
+        "chest": { "type": "string" },
+        "waist": { "type": "string" },
+        "hip": { "type": "string" },
+        "sleeves": { "type": "string" },
+        "shoulder": { "type": "string" },
+        "neckFront": { "type": "string" },
+        "neckBack": { "type": "string" },
+        "bottomLength": { "type": "string" },
+        "bottomGhera": { "type": "string" },
+        "fittingNotes": { "type": "string" }
+      }
+    },
+    "KarigarAssignment": {
+      "collection": "karigar_assignments",
+      "fields": {
+        "karigarName": { "type": "string" },
+        "phoneNumber": { "type": "string" },
+        "workAssigned": { "type": "string" },
+        "itemType": { "type": "string" },
+        "ratePerPiece": { "type": "number" },
+        "quantity": { "type": "number" },
+        "totalWages": { "type": "number" },
+        "wageStatus": { "type": "string" }
+      }
+    },
+    "WorkerAttendance": {
+      "collection": "worker_attendance",
+      "fields": {
+        "workerName": { "type": "string" },
+        "dateString": { "type": "string" },
+        "status": { "type": "string" },
+        "checkInTime": { "type": "number" },
+        "biometricVerified": { "type": "boolean" },
+        "advanceTaken": { "type": "number" }
+      }
+    },
+    "PaymentInstallment": {
+      "collection": "payment_installments",
+      "fields": {
+        "customerName": { "type": "string" },
+        "amount": { "type": "number" },
+        "paymentMode": { "type": "string" },
+        "dateString": { "type": "string" },
+        "receiptNumber": { "type": "string" }
+      }
+    },
+    "CashFlowEntry": {
+      "collection": "cash_flow",
+      "fields": {
+        "type": { "type": "string" },
+        "category": { "type": "string" },
+        "amount": { "type": "number" },
+        "paymentMode": { "type": "string" },
+        "dateString": { "type": "string" }
+      }
+    }
+  }
+}

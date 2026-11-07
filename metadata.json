@@ -1,0 +1,6 @@
+{
+  "name": "Threads n Trends",
+  "description": "Boutique & Designer Studio management app for customer orders, karigar assignments, worker attendance, cash flow, and UPI payments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

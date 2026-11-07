@@ -1,0 +1,10 @@
+{
+  "name": "threads-n-trends-boutique",
+  "version": "1.0.0",
+  "description": "Threads n Trends Boutique & Designer Studio Management App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  }
+}
